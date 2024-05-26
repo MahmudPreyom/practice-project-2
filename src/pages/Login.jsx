@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 to-purple-500">
-      <div className="w-full max-w-md p-8 space-y-8 bg-white shadow-lg rounded-lg transform transition duration-500 hover:scale-105">
-        <h2 className="text-3xl font-extrabold text-center text-gray-900 animate-pulse">Sign In</h2>
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <div className="w-full max-w-md p-8 space-y-8 bg-white shadow-md rounded-lg">
+        <h2 className="text-2xl font-bold text-center text-gray-900">Sign In</h2>
         <form className="mt-8 space-y-6">
           <div className="space-y-4">
             <div>
@@ -35,10 +35,11 @@ const Login = () => {
               />
             </div>
           </div>
+
           <div>
             <button
               type="submit"
-              className="w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-lg shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300"
+              className="w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-lg shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Sign in
             </button>
@@ -46,7 +47,7 @@ const Login = () => {
           <div>
             <button
               type="button"
-              className="w-full px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-lg shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 flex items-center justify-center transition duration-300"
+              className="w-full px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-lg shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 flex items-center justify-center"
             >
               <svg
                 className="w-5 h-5 mr-2"
