@@ -1,7 +1,15 @@
+import About from "./about/About"
+import Banner from "./banner/Banner"
+import Blog from "./blog/Blog"
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Banner/>
+      <About/>
+      <Blog/>
+      Home
+    </div>
   )
 }
 

@@ -3,12 +3,12 @@ import { Link } from "react-router-dom"
 function Navber() {
 
     const navOption = <>
-        <li><Link>Home</Link></li>
-        <li><Link>About</Link></li>
-        <li><Link>Blog</Link></li>
-        <li><Link>Dashboard</Link></li>
-        <li><Link>Login</Link></li>
-        <li><Link>Register</Link></li>
+        <li><Link to={'/'}>Home</Link></li>
+        <li><Link to={'/about'}>About</Link></li>
+        <li><Link to={'/blog'}>Blog</Link></li>
+        <li><Link to={'/dashboard'}>Dashboard</Link></li>
+        <li><Link to={'/login'}>Login</Link></li>
+        <li><Link to={'/register'}>Register</Link></li>
     </>
 
     return (
